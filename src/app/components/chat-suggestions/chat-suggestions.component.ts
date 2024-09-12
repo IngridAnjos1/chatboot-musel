@@ -10,8 +10,8 @@ import { CuriosityComponent } from '../../icons/curiosity/curiosity.component';
   imports: [
     CommonModule,
     QuestionComponent,
-    HistoryComponent,
-    CuriosityComponent
+    CuriosityComponent,
+    HistoryComponent   
 ],
   templateUrl: './chat-suggestions.component.html',
   styleUrl: './chat-suggestions.component.scss'
@@ -19,7 +19,7 @@ import { CuriosityComponent } from '../../icons/curiosity/curiosity.component';
 export class ChatSuggestionsComponent {
   @Output() questionSelected =  new EventEmitter<string>();
 
-  suggestionTopic = [
+  suggestionTopics = [
     {
       title: "Dúvidas",
       icon: 'doubt',
@@ -52,4 +52,3 @@ export class ChatSuggestionsComponent {
     this.questionSelected.emit(value)
   }
 }
-

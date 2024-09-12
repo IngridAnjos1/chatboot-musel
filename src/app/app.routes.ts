@@ -4,11 +4,11 @@ import { Routes } from '@angular/router';
 
 export const routes: Routes = [
     {
-        path:"",
+        path: "",
         component: HomeComponent
     },
     {
-        path:"chat",
+        path: "chat",
         component: ChatComponent
     }
 ];
