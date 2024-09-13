@@ -1,27 +1,44 @@
-# ChatbootMusel
+# Chatboot Musel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+O principal objetivo deste chatbot é facilitar o acesso à informação e oferecer uma experiência interativa para os visitantes do museu. Ele responde a perguntas frequentes, fornece detalhes sobre exposições e oferece um canal acessível de comunicação com o público.
 
-## Development server
+Além disso, o projeto serve como uma oportunidade para estudar e praticar conceitos de engenharia de software, especialmente no desenvolvimento de aplicações web com Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologias Utilizadas
 
-## Code scaffolding
+Angular 16: Framework JavaScript utilizado para construir a interface e a lógica do chatbot.
+HTML5: Para a estruturação das páginas.
+SCSS: Para estilização.
+TypeScript: Linguagem usada no desenvolvimento de aplicações com Angular.
+API de Chat: Integração com uma API para fornecer as funcionalidades de chatbot.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Instalação e Execução
 
-## Build
+Pré-requisitos
+Node.js (versão 18+)
+Angular CLI (versão 16+)
+Passos para instalar o projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1- Clone o repositório:
+git clone https://github.com/IngridAnjos1/chatboot-museu.git
 
-## Running unit tests
+2- Instale as dependências
+cd chatboot-museu
+npm install
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3- Execute o projeto:
+ng serve
 
-## Running end-to-end tests
+4- Acesse o aplicativo no navegador:
+http://localhost:4200
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+## Funcionalidades
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Resposta automática a perguntas frequentes.
+Informações sobre exposições em andamento.
+Horários de funcionamento e detalhes de ingressos.
+
+
+## Contribuição
+Este projeto é voltado para aprendizado e aperfeiçoamento. Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork do projeto e abrir um pull request.
